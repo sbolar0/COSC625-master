@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+
+/* Color pallete
+Yellows(dark to light)
+000000
+665000
+CCC900
+FFFF0A
+FFFF70
+FFFFFF
+
+Blues(dark to light)
+000000
+001314
+00858F
+0AEFFF
+70FFFF
+FFFFFF
+*/
+
+* {
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Ubuntu;
+}
+
+.containerMain {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 2vh;
+    flex-wrap: wrap;
+}
+
+.candleStick {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background:linear-gradient(rgb(41, 60, 61),transparent);
+    background-color: #282c34;
+    width:100%;
+    height:100%;
+    flex: auto;
+}
+
+.inputField {
+    font-family: Ubuntu;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    display: block;
+    width: fit-content;
+    background: transparent;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+
+.selectOption {
+    background:linear-gradient(rgb(41, 60, 61),transparent);
+    background-color: #282c34;
+}
+
+.chrtSettings{
+    width: fit-content;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: none;
+    overflow: hidden;
+}
+
+#coin_pair{
+    float: left;
+}
+
+#timeInterval{
+    float: right;
+}
+
+.chartSize{
+    height: calc(100% - 30px);
+}

@@ -1,0 +1,32 @@
+
+.mainCont {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    text-align: center;
+    background:linear-gradient(rgb(23, 29, 32, .5),transparent);
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.signUpContainer{
+    background:linear-gradient(rgb(41, 60, 61),transparent);
+    background-color: #282c34;
+    width:100%;
+    min-height: 35%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
